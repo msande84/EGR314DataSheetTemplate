@@ -7,6 +7,7 @@ tags:
 
 ## Overview
 This is a breakdown of the parts of the wireless subsystem.
+
 * power levels
 * UART connection to sensor subsystem
 * SPI connection to motor subsystem
