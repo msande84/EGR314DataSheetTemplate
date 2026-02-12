@@ -26,12 +26,12 @@ title: Module's Selected Major Components
 
 **Rationale:** Affordable linear voltage regulator.
 
-2. MIC5365-3.3YC5-TR surface mount voltage regulator
+2. TCR2EF33LM surface mount voltage regulator
 
-    <img src="MIC5365-3.3YC5-TR.png" width="150" height="150" />
+    <img src="TCR2EF33LM.png" width="150" height="150" />
 
     * $0.12/each
-    * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-3YC5-TR/1868094)
+    * [link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
@@ -42,16 +42,16 @@ title: Module's Selected Major Components
 
 **Rationale:** Affordable linear voltage regulator.
 
-3. MIC5365-3.3YC5-TR surface mount voltage regulator
+3. AZ1117CH-3.3TRG1 surface mount voltage regulator
 
-    <img src="MIC5365-3.3YC5-TR.png" width="150" height="150" />
+    <img src="AZ1117CH-3.3TRG1.png" width="150" height="150" />
 
-    * $0.12/each
-    * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-3YC5-TR/1868094)
+    * $0.16/each
+    * [link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AZ1117CH-3-3TRG1/4470985)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | 3.3V output                               | Max inpute voltage 5.5V                                          |
+    | 3.3V output                               | Fixed output                                                     |
     | Cheap                                     | Needs special PCB layout.                                        |
     | Wide operating temperature range          |
     | Meets surface mount constraint of project |
