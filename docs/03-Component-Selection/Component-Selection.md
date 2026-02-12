@@ -12,7 +12,7 @@ title: Module's Selected Major Components
 
 1. MIC5365-3.3YC5-TR surface mount voltage regulator
 
-    ![](MIC5365-3.3YC5-TR.png)
+    <img src="MIC5365-3.3YC5-TR.png" width="50%" />
 
     * $0.12/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-3YC5-TR/1868094)
