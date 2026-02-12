@@ -4,62 +4,58 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
+* Voltage Regulator
+* WiFi Chip
+* ESP32
 
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+**Power Management**
 
-### Power Management
+1. MIC5365-3.3YC5-TR surface mount voltage regulator
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+    ![](MIC5365-3.3YC5-TR.png)
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
-
-### Sensor
-
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
-
-### Actuator
-
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
-
------------
-> Remove the following before submitting! Use them to present the selected components
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-
-**Rationale:** A clock oscillator is easier ....
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $0.12/each
+    * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-3YC5-TR/1868094)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | 3.3V output                               | Max inpute voltage 5.5V                                          |
+    | Cheap                                     | Needs special PCB layout.                                        |
+    | Wide operating temperature range          |
     | Meets surface mount constraint of project |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** Affordable linear voltage regulator.
+
+**WiFi Chip**
+
+1. WFM200S022XNA3 surface mount WiFi Module
+
+    ![](WFM200S022XNA3.png)
+
+    * $11.16/each
+    * [link to product](https://www.mouser.com/ProductDetail/Silicon-Labs/WFM200S022XNA3?qs=vEM7xhTegWgk98Fa7%252BnIXQ%3D%3D)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | 801.11 Certified                          | Requires external components and support circuitry for interface |
+    | Built in antenna                          | Needs special PCB layout.                                        |
+    | Low power 3.3V                            |
+    | Meets surface mount constraint of project |
+
+**Rationale:** A all inclusive WiFi module will be easier to use than separate antenna and clock.
+
+1. XXXXX surface mount WiFi Module
+
+    ![](image1.png)
+
+    * $11.16/each
+    * [link to product](https://www.mouser.com/ProductDetail/Silicon-Labs/WFM200S022XNA3?qs=vEM7xhTegWgk98Fa7%252BnIXQ%3D%3D)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | 801.11 Certified                          | Requires external components and support circuitry for interface |
+    | Built in antenna                          | Needs special PCB layout.                                        |
+    | Low power 3.3V                            |
+    | Meets surface mount constraint of project |
+
+**Rationale:** A all inclusive WiFi module will be easier to use than separate antenna and clock.
