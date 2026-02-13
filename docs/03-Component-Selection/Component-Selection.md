@@ -107,3 +107,4 @@ title: Module's Selected Major Components
     | Meets surface mount constraint of project |
 
 **Rationale:** A all inclusive WiFi module will be easier to use than separate antenna and clock.
+
