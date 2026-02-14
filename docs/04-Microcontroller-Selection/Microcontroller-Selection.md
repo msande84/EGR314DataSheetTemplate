@@ -21,4 +21,4 @@ title: Microcontroller Selection
  | Bit rate      | up to 150 Mbps                                                                                       |
 
 Here is the pin layout of the ESP32:
-![](ESP32Pins.png)
+ ![](ESP32Pins.png)
