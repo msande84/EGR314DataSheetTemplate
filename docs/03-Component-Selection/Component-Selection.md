@@ -1,8 +1,8 @@
 ---
-title: Module's Selected Major Components
+title: Component Selection
 ---
 
-## Module's Selected Major Components
+## Component Selection
 
 * Voltage Regulator
 * WiFi Chip
