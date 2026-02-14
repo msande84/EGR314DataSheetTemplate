@@ -12,7 +12,7 @@ title: Module's Selected Major Components
 
 1. MIC5365-3.3YC5-TR surface mount voltage regulator
 
-    ![](MIC5365-3.3YC5-TR.png|width=150)
+    ![](MIC5365-3.3YC5-TR.png)
 
     * $0.12/each
     * [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MIC5365-3-3YC5-TR/1868094)
@@ -28,7 +28,7 @@ title: Module's Selected Major Components
 
 2. TCR2EF33LM surface mount voltage regulator
 
-    ![](TCR2EF33LM.png|width=150)
+    ![](TCR2EF33LM.png)
 
     * $0.12/each
     * [link to product](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TCR2EF33-LM-CT/4503183)
