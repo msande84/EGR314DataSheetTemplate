@@ -16,3 +16,7 @@ title: Microcontroller Selection
  | Datasheet     | [Datasheet](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
  | Code Example  | [Link](https://randomnerdtutorials.com/esp32-useful-wi-fi-functions-arduino/)                        |
  | Price         | $5.06                                                                                                |
+ | Wi-Fi         | IEEE 802.11b/g/n                                                                                     |
+ | Frequency     | 2412-2484 MHz                                                                                        |
+ | Bit rate      | up to 150 Mbps                                                                                       |
+
