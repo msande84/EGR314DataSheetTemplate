@@ -10,6 +10,7 @@ title: Microcontroller Selection
 * Higher clock speed will be able to handle communication between all other subsystems
 
  | ESP32         | Info                                                                                                 |
+ |---------------|------------------------------------------------------------------------------------------------------|
  | Model         | ESP32-S33-WROOM-1-N4                                                                                 |
  | Link          | [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639) |
  | Datasheet     | [Datasheet](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)          |
