@@ -22,3 +22,6 @@ title: Microcontroller Selection
 
 Here is the pin layout of the ESP32:
  ![](ESP32Pins.png)
+
+**Subsystem Description**
+My subsystem is the wireless control subsystem. The ESP32 was chosen due to the in-built Wi-Fi chip. My susbsystem will also need to coordinate communication between the external human interface and the other subsystems. 
