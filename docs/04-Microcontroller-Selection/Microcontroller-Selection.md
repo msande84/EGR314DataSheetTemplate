@@ -20,3 +20,5 @@ title: Microcontroller Selection
  | Frequency     | 2412-2484 MHz                                                                                        |
  | Bit rate      | up to 150 Mbps                                                                                       |
 
+Here is the pin layout of the ESP32:
+![](ESP32Pins.png)
